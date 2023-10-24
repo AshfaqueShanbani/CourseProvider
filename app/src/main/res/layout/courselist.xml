@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#E3E3E3"
+        >
+        <TextView
+            android:id="@+id/coursena"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="15dp"
+            android:drawablePadding="2dp"
+            android:drawableLeft="@drawable/baseline_arrow_forward_ios_24"
+            />
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/courseid"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            app:civ_border_width="2dp"
+            app:civ_shadow="false"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            app:civ_shadow_radius="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

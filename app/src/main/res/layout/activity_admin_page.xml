@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/buttonsubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add Subject"
+        android:textSize="23dp"
+        android:layout_below="@+id/rv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+         />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/buttonadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add Subtopic"
+        android:textSize="23dp"
+        android:layout_below="@+id/buttonsubject"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+         />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/buttonsubtopicdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add Subtopic  details"
+        android:textSize="23dp"
+        android:layout_below="@+id/buttonadd"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black" />
+
+</RelativeLayout>

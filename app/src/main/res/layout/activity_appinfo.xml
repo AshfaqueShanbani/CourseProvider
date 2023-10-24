@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    tools:context=".Appinfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About CourseProvider"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version: 1.0 (First Release)"
+                android:textSize="25dp"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CourseProvider is an educational app that offers a collection of text-based courses. Our primary mission is to provide students with easy access to educational content, making learning more convenient and accessible. The app is designed to assist students in their academic journey and help them gain knowledge through well-structured course materials"
+                android:textStyle="italic"
+                android:fontFamily="monospace"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Key Features:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Access a wide range of text-based courses.\n
+User-friendly interface for easy navigation.\n
+Courses categorized by subjects and topics.\n
+In-app search functionality to find specific courses.\n
+Submit and download new courses (Admin feature).\n
+Offline access to downloaded course content."
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why CourseProvider?"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CourseProvider stands out as an educational resource due to its ease of use, categorized content, and a growing library of courses across various subjects. Our app is designed to enhance the learning experience and provide students with valuable educational material."
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email: shanbaniashfaq@gmail.com\n
+Feel free to reach out for any inquiries, feedback, or support."
+                android:textSize="17dp"
+                    android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Development Team:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ashfaque: App Development and Updates\n
+Chandan: Presentation and Design\n
+Ambreen and Kubra: System Requirement Specification (SRS) Documentation\n
+We submitted this app as part of our Software Engineering course, supervised by Professor Zeeshan Ahmed Nizamani.
+"
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy and Terms:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For details regarding user data and usage terms, please refer to our Privacy Policy and Terms and Conditions within the app."
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Future Updates:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In future releases, we plan to introduce the following features:\n
+Admins can upload video content.\n
+Students can access video lectures for their courses"
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disclaimer:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please note that CourseProvider is intended solely for educational purposes and should not replace professional advice or traditional educational methods."
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GitHub Repository:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/AshfaqueShanbani/CourseProvider"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright 2023:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CourseProvider, All Rights Reserved"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
